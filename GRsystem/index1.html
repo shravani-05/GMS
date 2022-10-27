@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <style type="text/css">
+      html,
+      body {
+        width: 100%;
+        height: 200%;
+        margin: 0;
+        padding: 0;
+      }
+      .img {
+        width: 100%;
+
+        height: 100%;
+      }
+      .jumbotron {
+        background-color: #00d1fb;
+      }
+
+      .page-footer {
+        background-color: #00d1fb;
+        bottom: 700px;
+        top: 250px;
+        position: relative;
+      }
+      .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin .checkbox {
+        font-weight: normal;
+      }
+      .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+      }
+      .form-signin .form-control:focus {
+        z-index: 2;
+      }
+      .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><h3>Complaint Management System</h3></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target=".navbar-collapse"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="true"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <title>Navbar 1</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+            rel="stylesheet"
+          />
+          <link href="./styles.css" rel="stylesheet" />
+                  </head>
+        <style>
+          		* {
+          			box-sizing: border-box;
+          		}
+
+          		button {
+          			border: 0;
+          			padding: 0;
+          			background: transparent;
+          			cursor: pointer;
+          		}
+
+          		.navbar,
+          		.navbar-burger,
+          		.menu,
+          		.background {
+          			position: fixed;
+          		}
+
+          		.background {
+      			    margin-top: 10%;
+          			z-index: 1;
+          			top: -10%;
+          			left: -10%;
+					margin-top: 15%;
+					margin-left: 22%;
+          			width: 80%;
+          			height: 67%;
+          			background-image: url(img/istockphoto-687207094-170667a.jpg);
+          			background-size: cover;
+          			background-repeat: no-repeat;
+          			background-position: center;
+          			transition: 0.5s;
+					border: solid 5px;
+					border-color: #19191c;
+					border-radius: 5px;
+      		   		}
+
+          		body.open .background {
+          			filter: blur(20px);
+          		}
+
+          		.navbar {
+          			z-index: 1;
+          			top: 0;
+          			left: 0;
+          			display: flex;
+          			align-items: center;
+          			justify-content: space-between;
+          			width: 100%;
+          			height: 72px;
+          			padding-left: 20px;
+          			padding-right: 72px;
+          			background: #19191c;
+          			color: #f9f9f9;
+          		}
+
+          		.navbar > button {
+          			font-size: 28px;
+          		}
+
+          		.navbar-logo {
+          			height: 25px;
+          		}
+
+          		.navbar-burger {
+          			z-index: 3;
+          			top: 0;
+          			right: 0;
+          			display: grid;
+          			place-items: center;
+          			width: 72px;
+          			height: 72px;
+          			background-image: url("./assets/menu.svg");
+          			background-repeat: no-repeat;
+          			background-position: center;
+          		}
+
+          		body.open .navbar-burger {
+          			background-image: url("./assets/close.svg");
+          		}
+
+          		.navbar-search {
+          			border: 0;
+          			height: 40px;
+          			background: #2f3339 url("assets/search.svg");
+          			background-repeat: no-repeat;
+          			background-position: 10px 50%;
+          			border: 0;
+          			border-radius: 6px;
+          			padding-left: 36px;
+          			width: 180px;
+          			font-size: 16px;
+          			font-family: "Euclid Circular A";
+          		}
+
+          		.navbar-search::placeholder {
+          			color: #a7a7a7;
+          		}
+
+          		.menu {
+          			z-index: 2;
+          			top: 0;
+          			left: 0;
+          			display: flex;
+          			flex-direction: column;
+          			justify-content: center;
+          			align-items: center;
+          			gap: 32px;
+          			width: 100%;
+          			height: 100%;
+          			background: rgba(0, 0, 0, 0.8);
+          			opacity: 0;
+          			visibility: hidden;
+          			transition: 0.5s;
+          		}
+
+          		body.open .menu {
+          			opacity: 1;
+          			visibility: visible;
+          		}
+
+          		.menu > a {
+          			color: #f9f9f9;
+          			font-size: 25px;
+          			font-family: "Euclid Circular A";
+          			text-decoration: none;
+          		}
+
+          		body.open .menu > a {
+          			animation: appear 0.3s both;
+          		}
+
+          		@keyframes appear {
+          			0% {
+          			opacity: 0;
+          			translate: 0 50px;
+          			}
+          			100% {
+          			opacity: 1;
+          			}
+          		}
+          		.section2 {
+          			color: #2f3339;
+          		}
+			.swiper {
+				width: 120%;
+          			height: 89%;
+		  	}
+        </style>
+        <body>
+			  
+          <div class="background">
+                    </div>
+						
+          <button class="navbar-burger" onclick="toggleMenu()"></button>
+          <nav class="menu">
+            <a class="nav-link" href="/" style="animation-delay: 0.2s">Home</a>
+			<a class="nav-link" href="aboutus.html" style="animation-delay: 0.4s"
+			>About</a
+		  >
+            
+            <a class="nav-link" href="/register/" style="animation-delay: 0.3s"
+              >Register</a
+            >
+			
+            <a class="nav-link" href="/dashboard/" style="animation-delay: 0.3s"
+              >Profile</a
+            >
+            <a class="nav-link" href="/login/" style="animation-delay: 0.4s"
+              >Login</a
+            >
+			
+          <script type="text/javascript">
+            const toggleMenu = () => {
+              document.body.classList.toggle("open");
+            };
+          </script>
+        </body>
+      </html>
+    </nav>
+
+  </body>
+
+</html>
